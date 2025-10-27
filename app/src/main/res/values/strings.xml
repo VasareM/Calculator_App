@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Calculator_App</string>
+    <string name="zero_num">0</string>
+    <string name="one_num">1</string>
+    <string name="two_num">2</string>
+    <string name="three_num">3</string>
+    <string name="four_num">4</string>
+    <string name="five_num">5</string>
+    <string name="six_num">6</string>
+    <string name="seven_num">7</string>
+    <string name="eight_num">8</string>
+    <string name="nine_num">9</string>
+    <string name="dot_char">.</string>
+    <string name="mc_char">MC</string>
+    <string name="mr_char">MR</string>
+    <string name="ms_char">MS</string>
+    <string name="m_plus_char">M+</string>
+    <string name="m_minus_char">M-</string>
+    <string name="del_char">DEL</string>
+    <string name="del_txt">C</string>
+    <string name="del_all">CE</string>
+    <string name="change_char">±</string>
+    <string name="sqrt_char">√</string>
+    <string name="division_char">/</string>
+    <string name="multip_char">*</string>
+    <string name="add_char">+</string>
+    <string name="sub_char">-</string>
+    <string name="perc_char">%</string>
+    <string name="equal_char">=</string>
+    <string name="frac_char">1/x</string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+</resources>
