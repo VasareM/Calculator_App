@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green_btn">#077C32</color>
+    <color name="bckg_light_green">#D2F6D4</color>
 </resources>

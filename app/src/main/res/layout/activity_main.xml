@@ -5,13 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/bckg_light_green"
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="Hello World!"
         android:textSize="40sp"
+        android:textAlignment="textEnd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.2"
@@ -35,7 +38,7 @@
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.18"
-
+        android:backgroundTint="@color/green_btn"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
