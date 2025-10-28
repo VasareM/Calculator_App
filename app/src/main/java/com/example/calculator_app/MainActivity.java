@@ -189,7 +189,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     void displayResult(double value) {
-        tvDisplay.setText(formatNumber(value));
+        // Remove unnecessary ".0" and round to 10 decimal places
+        if (value == (long) value) {
+            tvDisplay.setText(String.valueOf((long) value));
+        } else {
+            tvDisplay.setText(String.format("%.10f", value).replaceAll("0*$", "").replaceAll("\\.$", ""));
+        }
     }
     String formatNumber(double value) {
         if (value % 1 == 0) {
