@@ -23,3 +23,6 @@ Three colors were used for the buttons, declared in the `colors.xml` file:
 * *#0B8E3B* for implemented operations
 * *#2F7146* for not yet implemented iperations
 
+Final result:
+
+<img width=auto height="300" alt="Image" src="https://github.com/user-attachments/assets/6995734d-d61e-473b-aa9e-f7e2ef55982f" />
