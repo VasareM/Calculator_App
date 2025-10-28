@@ -6,14 +6,22 @@
         <item name="android:gravity">center</item>
         <item name="android:textAlignment">center</item>
 
+        <!-- Ensure single line -->
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
         <!-- Responsive text -->
         <item name="android:autoSizeTextType">uniform</item>
         <item name="android:autoSizeMinTextSize">12sp</item>
-        <item name="android:autoSizeMaxTextSize">35sp</item>
-        <item name="android:autoSizeStepGranularity">5sp</item>
+        <item name="android:autoSizeMaxTextSize">30sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
 
         <!-- General appearance -->
         <item name="android:textColor">@android:color/white</item>
         <item name="android:fontFamily">sans-serif-medium</item>
+
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
     </style>
 </resources>
