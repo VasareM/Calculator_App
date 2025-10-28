@@ -29,4 +29,5 @@
     <string name="equal_char">=</string>
     <string name="frac_char">1/x</string>
     <string name="error_msg">Error</string>
+    <string name="enter_calc">Enter a number</string>
 </resources>
