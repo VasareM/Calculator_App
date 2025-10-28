@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="calcButton" >
+        <!-- Text alignment -->
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+
+        <!-- Responsive text -->
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:autoSizeMaxTextSize">35sp</item>
+        <item name="android:autoSizeStepGranularity">5sp</item>
+
+        <!-- General appearance -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

@@ -10,9 +10,10 @@
     >
 
     <TextView
+        android:id="@+id/tvDisplay"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Hello World!"
+        android:text=""
         android:textSize="40sp"
         android:textAlignment="textEnd"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,11 +26,11 @@
 
     <Button
         android:id="@+id/button0"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/zero_num"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,11 +43,12 @@
 
     <Button
         android:id="@+id/btnDot"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/dot_char"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,11 +60,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnPlus"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/add_char"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,11 +78,12 @@
 
     <Button
         android:id="@+id/button1"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/one_num"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,11 +95,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/button2"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/two_num"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,11 +112,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/button3"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/three_num"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,11 +129,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnMinus"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/sub_char"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -140,11 +147,11 @@
 
     <Button
         android:id="@+id/btnEqual"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/equal_char"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -157,11 +164,12 @@
 
     <Button
         android:id="@+id/button4"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/four_num"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -173,11 +181,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/button5"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/five_num"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -189,11 +198,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/button6"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/six_num"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -205,11 +215,12 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnMulti"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/multip_char"
-        android:textSize="40sp"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -221,11 +232,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnFraction"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_fake"
         android:text="@string/frac_char"
-        android:textSize="17sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -238,11 +249,11 @@
 
     <Button
         android:id="@+id/button7"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/seven_num"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -254,11 +265,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/button8"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/eight_num"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -270,11 +281,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/button9"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_num"
         android:text="@string/nine_num"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -286,11 +297,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnDivision"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/division_char"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -302,11 +313,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnPercent"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:backgroundTint="@color/green_fake"
+        android:backgroundTint="@color/green_btn"
         android:text="@string/perc_char"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -319,11 +330,11 @@
 
     <Button
         android:id="@+id/btnDel"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/del_char"
-        android:textSize="15sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -335,11 +346,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnCe"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
-        android:text="@string/del_all"
-        android:textSize="21sp"
+        android:text="@string/clear_entry_char"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -351,11 +362,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnC"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
-        android:text="@string/del_txt"
-        android:textSize="30sp"
+        android:text="@string/clear_char"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -367,11 +378,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnChangeSign"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/change_char"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -383,11 +394,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnSquareRoot"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_btn"
         android:text="@string/sqrt_char"
-        android:textSize="40sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -400,11 +411,11 @@
 
     <Button
         android:id="@+id/btnMc"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_fake"
         android:text="@string/mc_char"
-        android:textSize="17sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -416,11 +427,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnMr"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_fake"
         android:text="@string/mr_char"
-        android:textSize="17sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -432,11 +443,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnMs"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_fake"
         android:text="@string/ms_char"
-        android:textSize="17sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -448,11 +459,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnMplus"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_fake"
         android:text="@string/m_plus_char"
-        android:textSize="18sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -464,11 +475,11 @@
         app:layout_constraintWidth_percent="0.18" />
     <Button
         android:id="@+id/btnMminus"
+        style="@style/calcButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/green_fake"
         android:text="@string/m_minus_char"
-        android:textSize="21sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -478,13 +489,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.44"
         app:layout_constraintWidth_percent="0.18" />
-
-
-
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
