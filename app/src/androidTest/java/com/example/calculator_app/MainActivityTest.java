@@ -59,4 +59,61 @@ public class MainActivityTest {
         onView(withId(R.id.btnPercent)).perform(click());
         onView(withId(R.id.tvDisplay)).check(matches(withText("0.5")));
     }
+
+
+    @Test
+    public void testOperatorChainingUI() {
+        onView(withId(R.id.button2)).perform(click());
+        onView(withId(R.id.btnPlus)).perform(click());
+        onView(withId(R.id.button3)).perform(click());
+        onView(withId(R.id.btnMulti)).perform(click());
+        onView(withId(R.id.button4)).perform(click());
+        onView(withId(R.id.btnEqual)).perform(click());
+        onView(withId(R.id.tvDisplay)).check(matches(withText("20")));
+    }
+    @Test
+    public void testDecimalInputUI() {
+        onView(withId(R.id.button2)).perform(click());
+        onView(withId(R.id.btnDot)).perform(click());
+        onView(withId(R.id.button5)).perform(click());
+        onView(withId(R.id.btnPlus)).perform(click());
+        onView(withId(R.id.button1)).perform(click());
+        onView(withId(R.id.btnDot)).perform(click());
+        onView(withId(R.id.button5)).perform(click());
+        onView(withId(R.id.btnEqual)).perform(click());
+        onView(withId(R.id.tvDisplay)).check(matches(withText("4")));
+    }
+    @Test
+    public void testNegativeNumberUI() {
+        onView(withId(R.id.btnMinus)).perform(click());
+        onView(withId(R.id.button3)).perform(click());
+        onView(withId(R.id.btnPlus)).perform(click());
+        onView(withId(R.id.button5)).perform(click());
+        onView(withId(R.id.btnEqual)).perform(click());
+
+        onView(withId(R.id.tvDisplay)).check(matches(withText("2")));
+    }
+    @Test
+    public void testDeleteButtonUI() {
+        onView(withId(R.id.button1)).perform(click());
+        onView(withId(R.id.button2)).perform(click());
+        onView(withId(R.id.button3)).perform(click());
+        onView(withId(R.id.btnDel)).perform(click());
+        onView(withId(R.id.btnDel)).perform(click());
+        onView(withId(R.id.btnDel)).perform(click());
+        onView(withId(R.id.tvDisplay)).check(matches(withText("0")));
+    }
+
+    @Test
+    public void testClearEntryVsClearAllUI() {
+        onView(withId(R.id.button7)).perform(click());
+        onView(withId(R.id.btnPlus)).perform(click());
+        onView(withId(R.id.button3)).perform(click());
+        onView(withId(R.id.btnCe)).perform(click());
+        onView(withId(R.id.tvDisplay)).check(matches(withText("")));
+        onView(withId(R.id.button5)).perform(click());
+        onView(withId(R.id.btnC)).perform(click());
+        onView(withId(R.id.tvDisplay)).check(matches(withText("")));
+        onView(withId(R.id.tvExpression)).check(matches(withText("")));
+    }
 }

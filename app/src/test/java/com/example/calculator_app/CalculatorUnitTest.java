@@ -80,4 +80,37 @@ public class CalculatorUnitTest {
         double expected = 0.5;
         assertEquals(expected, actual, 0.00001);
     }
+    @Test
+    public void testAdditionWithNegative() {
+        double a = -2;
+        double b = 5;
+        double actual = logic.calculate(a, b, "+");
+        double expected = 3;
+        assertEquals(expected, actual, 0.00001);
+    }
+
+    @Test
+    public void testDecimalMultiplication() {
+        double a = 2.5;
+        double b = 4.0;
+        double actual = logic.calculate(a, b, "*");
+        double expected = 10.0;
+        assertEquals(expected, actual, 0.00001);
+    }
+
+    @Test
+    public void testFormatNumberInteger() {
+        double value = 10.0;
+        String actual = logic.formatNumber(value);
+        String expected = "10";
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testFormatNumberDecimal() {
+        double value = 3.1415;
+        String actual = logic.formatNumber(value);
+        String expected = "3.1415";
+        assertEquals(expected, actual);
+    }
 }
