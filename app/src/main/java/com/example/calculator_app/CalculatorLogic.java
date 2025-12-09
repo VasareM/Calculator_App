@@ -7,7 +7,7 @@ public class CalculatorLogic {
             case "+": return a + b;
             case "-": return a - b;
             case "*": return a * b;
-            case "/": return b != 0 ? a / b : Double.NaN; // handle divide by zero
+            case "/": return b != 0 ? a / b : Double.NaN;
             default: return b;
         }
     }
@@ -29,7 +29,6 @@ public class CalculatorLogic {
         if (value % 1 == 0) {
             return String.valueOf((long) value);
         } else {
-            // Remove trailing zeros after decimal
             return String.format("%.10f", value).replaceAll("0*$", "").replaceAll("\\.$", "");
         }
     }

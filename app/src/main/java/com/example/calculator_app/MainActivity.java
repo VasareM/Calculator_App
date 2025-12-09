@@ -83,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupSpecialButtons() {
-        // Square Root
         Button btnSquareRoot = findViewById(R.id.btnSquareRoot);
         btnSquareRoot.setOnClickListener(v -> {
             if (currentInput.isEmpty()) {
@@ -101,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Change Sign
         Button btnChangeSign = findViewById(R.id.btnChangeSign);
         btnChangeSign.setOnClickListener(v -> {
             if (!currentInput.isEmpty()) {
@@ -112,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Percent
         Button btnPercent = findViewById(R.id.btnPercent);
         btnPercent.setOnClickListener(v -> {
             if (!currentInput.isEmpty()) {
